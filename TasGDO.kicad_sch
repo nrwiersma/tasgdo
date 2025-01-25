@@ -7777,7 +7777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-MINI-2U"
+		(property "Value" "ESP32-S3-MINI-2"
 			(at 147.32 141.478 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESP32-S2-MINI-2-N4R2"
+		(property "MPN" "ESP32-S2-MINI-2-N4"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -7831,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3013908"
+		(property "JLCPCB Part #" "C3013906"
 			(at 146.05 111.76 0)
 			(effects
 				(font

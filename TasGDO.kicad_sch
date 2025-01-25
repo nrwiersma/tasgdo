@@ -7786,7 +7786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S2-MINI-1U"
+		(property "Footprint" "tasgdo:ESP32-S2-MINI-1"
 			(at 162.56 140.97 0)
 			(effects
 				(font
@@ -7795,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401301313_Espressif-Systems-ESP32-S2-MINI-2U-N4R2_C3013909.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312071043_Espressif-Systems-ESP32-S2-MINI-2-N4R2_C3013908.pdf"
 			(at 146.05 71.12 0)
 			(effects
 				(font
@@ -7804,7 +7804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, external antenna"
+		(property "Description" "19.5dBm ESP32-S2FN4R2 Chip 2.4GHz VFQFN-56-EP  WiFi Modules ROHS"
 			(at 146.05 68.58 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESP32-S2-MINI-2U-N4R2"
+		(property "MPN" "ESP32-S2-MINI-2-N4R2"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -7831,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3013909"
+		(property "JLCPCB Part #" "C3013908"
 			(at 146.05 111.76 0)
 			(effects
 				(font

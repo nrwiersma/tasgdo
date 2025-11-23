@@ -8,14 +8,20 @@ Matter controller.
 
 ![board image](assets/board.png)
 
+## Pinout
+
 ## GPIO Pins
 
-* **0**: Button to operate the Solid State Relay/Enter flash mode
-* **2**: Link LED
-* **4**: Reed/limit switch sensor (User configurable)
-* **5**: Reed/limit switch sensor (User configurable)
-* **17**: Solid State Relay 
-* **18**: Relay LED
+| Pin | Function                                                  |
+|-----|-----------------------------------------------------------|
+| 3 | Link LED                                                  |
+| 4 | Reed/limit switch sensor (User configurable)              |
+| 5 | Reed/limit switch sensor (User configurable)              |
+| 9 | Button to operate the Solid State Relay/Enter flash mode  |
+| 16 | Solid State Relay                                         | 
+| 17 | Relay LED                                                 |
+
+
 
 ## Setup
 
@@ -47,4 +53,9 @@ SwitchMode3 15
 
 detaches `Switch2` and `Switch3` from the relays, which are not set. To be used
 with GPIO4 and GPIO5.
+
+## BOM
+
+See the [Interactive BOM](https://htmlpreview.github.io/?hhttps://github.com/nrwiersma/tasgdo/tree/vnext/blob/vnext/bom/ibom.html) [(provided by InteractiveHtmlBom)
+](https://github.com/openscopeproject/InteractiveHtmlBom).
  

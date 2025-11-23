@@ -11623,7 +11623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131530_Korean-Hroparts-Elec-K2-1109SP-B4SA-01_C92571.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588910079914987520"
 			(at 26.67 179.07 0)
 			(effects
 				(font
@@ -11632,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5mm 4.3mm Round Button 50mA Standing paste 4.5mm SPST 100MΩ 100000 Times 250gf 12V SMD Tactile Switches ROHS"
+		(property "Description" "-40℃~+85℃ 0.6mm 10mA 3.5N 32V 6.2mm 6.2mm IP67 J-Lead Round Button SPST Surface Mount,Vertical SMD-4P,6.2x6.2mm Tactile Switches ROHS"
 			(at 31.75 179.07 0)
 			(effects
 				(font
@@ -11641,7 +11641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Korean Hroparts Elec"
+		(property "MPN" "KSC241JLFS"
 			(at 31.75 179.07 90)
 			(effects
 				(font
@@ -11650,7 +11650,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "K2-1109SP-B4SA-01"
+		(property "Manufacturer" "C&K"
 			(at 31.75 179.07 90)
 			(effects
 				(font
@@ -11659,7 +11659,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C92571"
+		(property "JLCPCB Part #" "C221731"
 			(at 31.75 179.07 90)
 			(effects
 				(font

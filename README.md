@@ -56,6 +56,6 @@ with GPIO4 and GPIO5.
 
 ## BOM
 
-See the [Interactive BOM](https://htmlpreview.github.io/?hhttps://github.com/nrwiersma/tasgdo/tree/vnext/blob/vnext/bom/ibom.html) [(provided by InteractiveHtmlBom)
+See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/tasgdo/blob/vnext/bom/ibom.html) [(provided by InteractiveHtmlBom)
 ](https://github.com/openscopeproject/InteractiveHtmlBom).
  

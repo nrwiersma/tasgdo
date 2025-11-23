@@ -10,6 +10,8 @@ Matter controller.
 
 ## Pinout
 
+![pinout image](assets/pinout.png)
+
 ## GPIO Pins
 
 | Pin | Function                                                  |

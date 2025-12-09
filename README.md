@@ -16,14 +16,12 @@ Matter controller.
 
 | Pin | Function                                                  |
 |-----|-----------------------------------------------------------|
-| 3 | Link LED                                                  |
-| 4 | Reed/limit switch sensor (User configurable)              |
-| 5 | Reed/limit switch sensor (User configurable)              |
-| 9 | Button to operate the Solid State Relay/Enter flash mode  |
-| 16 | Solid State Relay                                         | 
-| 17 | Relay LED                                                 |
-
-
+| 0   | Solid State Relay                                         | 
+| 3   | Link LED                                                  |
+| 4   | Reed/limit switch sensor (User configurable)              |
+| 5   | Reed/limit switch sensor (User configurable)              |
+| 6   | Relay LED                                                 |
+| 9   | Button to operate the Solid State Relay/Enter flash mode  |
 
 ## Setup
 
@@ -58,6 +56,6 @@ with GPIO4 and GPIO5.
 
 ## BOM
 
-See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/tasgdo/blob/vnext/bom/ibom.html) [(provided by InteractiveHtmlBom)
+See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/tasgdo/blob/main/bom/ibom.html) [(provided by InteractiveHtmlBom)
 ](https://github.com/openscopeproject/InteractiveHtmlBom).
  

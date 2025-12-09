@@ -7683,6 +7683,10 @@
 		(uuid "26e5b8b8-588a-4d52-b0fb-fbed13365243")
 	)
 	(no_connect
+		(at 123.19 115.57)
+		(uuid "2d66ffe2-11d9-42e9-afed-e7100aab04cd")
+	)
+	(no_connect
 		(at 168.91 115.57)
 		(uuid "34f8dfef-5f04-447b-b069-446734c15b53")
 	)
@@ -7691,23 +7695,19 @@
 		(uuid "44b7a99e-3fe1-40ae-a5da-f0f4c0cf809f")
 	)
 	(no_connect
-		(at 123.19 115.57)
-		(uuid "58ef0d29-8f2f-43f3-a4a8-190bb82bea1d")
-	)
-	(no_connect
-		(at 123.19 113.03)
-		(uuid "66b8ae49-7cb9-41a4-a08e-d5058d0cb872")
+		(at 168.91 102.87)
+		(uuid "621e137a-86cc-40bb-9c12-9459a8e9081f")
 	)
 	(no_connect
 		(at 123.19 105.41)
 		(uuid "6c32d92d-9e97-42d4-b540-4bcb74167615")
 	)
 	(no_connect
-		(at 168.91 100.33)
+		(at 168.91 118.11)
 		(uuid "c4cda19f-5c68-4780-803f-7afed29b3ae7")
 	)
 	(no_connect
-		(at 168.91 102.87)
+		(at 168.91 120.65)
 		(uuid "c4e1dba1-c4cc-457c-8d86-de07784356af")
 	)
 	(no_connect
@@ -7785,6 +7785,16 @@
 			(type default)
 		)
 		(uuid "06826ef0-87e8-43c0-b9e2-4d8073b90371")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 181.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a4a925-c90a-4138-b296-8e0b32b41a35")
 	)
 	(wire
 		(pts
@@ -8075,16 +8085,6 @@
 			(type default)
 		)
 		(uuid "340cdfef-1ac8-4567-844f-dd45b8ed8c31")
-	)
-	(wire
-		(pts
-			(xy 168.91 118.11) (xy 181.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342c502d-fe49-402b-bea9-58864a5afc1b")
 	)
 	(wire
 		(pts
@@ -8498,6 +8498,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8931a839-4a86-4386-9121-8579bacc2fe9")
+	)
+	(wire
+		(pts
 			(xy 54.61 36.83) (xy 54.61 39.37)
 		)
 		(stroke
@@ -8645,16 +8655,6 @@
 			(type default)
 		)
 		(uuid "a3a41ffa-38b5-4b84-aa6e-c1780f732b17")
-	)
-	(wire
-		(pts
-			(xy 168.91 120.65) (xy 181.61 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c431d6-3174-42de-9803-7188a001557b")
 	)
 	(wire
 		(pts
@@ -9237,6 +9237,16 @@
 		(uuid "05167b71-d67e-4abc-a7b3-70c7bcae18a0")
 	)
 	(label "RELAY_LED"
+		(at 181.61 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "052ba532-54fd-4479-b9ab-381a63f79fce")
+	)
+	(label "RELAY_LED"
 		(at 133.35 148.59 270)
 		(effects
 			(font
@@ -9255,6 +9265,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b326a71-1b6c-4226-bd9e-992ce315a636")
+	)
+	(label "RELAY"
+		(at 110.49 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a15bd9-b4be-451f-8592-94b98ca4a310")
 	)
 	(label "GPIO4"
 		(at 181.61 95.25 180)
@@ -9386,16 +9406,6 @@
 		)
 		(uuid "75cb7e3c-9271-4709-9396-903866a6f466")
 	)
-	(label "RELAY_LED"
-		(at 181.61 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79d94f39-31ab-4658-8e36-607c413907eb")
-	)
 	(label "EN"
 		(at 50.8 133.35 180)
 		(effects
@@ -9445,16 +9455,6 @@
 			(justify right bottom)
 		)
 		(uuid "b8a72432-fec7-447e-9224-2840f802078d")
-	)
-	(label "RELAY"
-		(at 181.61 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf16b86d-677c-45dd-9201-ad3a6f1fbcbb")
 	)
 	(label "RELAY"
 		(at 215.9 104.14 0)

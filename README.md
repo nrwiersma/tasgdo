@@ -28,7 +28,7 @@ Matter controller.
 Once Tasmota has been installed, the following template can be set:
 
 ```json
-{"NAME":"TasGDO","GPIO":[32,0,544,0,1,1,0,0,0,0,0,0,0,0,0,0,0,224,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+{"NAME":"TasGDO","GPIO":[224,0,0,544,1,1,288,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
 Then run the following Commands in the Console:

@@ -8,21 +8,27 @@ Matter controller.
 
 ![board image](assets/board.png)
 
+## Pinout
+
+![pinout image](assets/pinout.png)
+
 ## GPIO Pins
 
-* **0**: Button to operate the Solid State Relay/Enter flash mode
-* **2**: Link LED
-* **4**: Reed/limit switch sensor (User configurable)
-* **5**: Reed/limit switch sensor (User configurable)
-* **17**: Solid State Relay 
-* **18**: Relay LED
+| Pin | Function                                                  |
+|-----|-----------------------------------------------------------|
+| 0   | Solid State Relay                                         | 
+| 3   | Link LED                                                  |
+| 4   | Reed/limit switch sensor (User configurable)              |
+| 5   | Reed/limit switch sensor (User configurable)              |
+| 6   | Relay LED                                                 |
+| 9   | Button to operate the Solid State Relay/Enter flash mode  |
 
 ## Setup
 
 Once Tasmota has been installed, the following template can be set:
 
 ```json
-{"NAME":"TasGDO","GPIO":[32,0,544,0,1,1,0,0,0,0,0,0,0,0,0,0,0,224,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+{"NAME":"TasGDO","GPIO":[224,0,0,544,1,1,288,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
 Then run the following Commands in the Console:
@@ -47,4 +53,9 @@ SwitchMode3 15
 
 detaches `Switch2` and `Switch3` from the relays, which are not set. To be used
 with GPIO4 and GPIO5.
+
+## BOM
+
+See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/tasgdo/blob/main/bom/ibom.html) [(provided by InteractiveHtmlBom)
+](https://github.com/openscopeproject/InteractiveHtmlBom).
  

@@ -1,4 +1,8 @@
-# TasGDO
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="http://svg.wiersma.co.za/github/project.v2?title=tasgdo&tag=garage%20door%20controller&mode=dark">
+  <source media="(prefers-color-scheme: light)" srcset="http://svg.wiersma.co.za/github/project.v2?title=tasgdo&tag=garage%20door%20controller">
+  <img alt="Logo" src="http://svg.wiersma.co.za/github/project.v2?title=tasgdo&tag=garage%20door%20controller">
+</picture>
 
 [![GitHub release](https://img.shields.io/github/release/nrwiersma/tasgdo.svg)](https://github.com/nrwiersma/tasgdo/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nrwiersma/tasgdo/main/LICENSE)
